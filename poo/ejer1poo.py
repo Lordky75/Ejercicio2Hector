@@ -29,8 +29,3 @@ class Ejercicio1():
         print("Valor real = ", self.valorReal)
         print("Aproximación = ", self.aprox)
         print("Error = ", self.error)
-
-    def ejercicio_1():
-        x,tolerancia = leerDatos()
-        valorReal,aprox,error = calcularAprox(x,tolerancia)
-        mostrarResultados(valorReal,aprox,error)
